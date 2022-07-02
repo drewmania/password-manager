@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/login.js"></script>
+    <title>password</title>
+</head>
+<body>
+    <!--Sign In-->
+    <div class="containerS" id="userContainer">
+        <!--left side-->
+        <div class="leftSide">
+            <img src="loginIcon.webp" alt="" class="icon">
+        </div>
+        <!--right side-->
+        <div class="rightSide">
+            <p class="title">User Login</p>
+            <!--text box-->
+            <input type="text" name="" placeholder="Email id" id="usernameLog" class="textBox">
+        </br>
+            <input type="password" name="" placeholder="Password" id="passwordLog" class="textBox">
+    </br>
+    </br>
+            <!--btn-->
+            <button class="btn" id="loginBtn">Login</button>
+            <!--links-->
+            <div class="linkContainer">
+                <p>don't have an acount ||</p><p class="link" id="signUpLink">Sign Up</p>
+            </div>
+        </div>
+    </div>
+    <!--Sign Up-->
+    <div class="containerH" id="signUp">
+        <!--left side-->
+        <div class="leftSide">
+            <img src="loginIcon.webp" alt="" class="icon">
+        </div>
+        <!--right side step 1-->
+        <div class="rightSide" id="step1">
+            <p class="title">Sign Up</p>
+            <!--text box-->
+            <input type="text" name="" placeholder="enter first name" id="firstNameSign" class="textBox">
+        </br>
+            <input type="text" name="" placeholder="enter last name" id="lastNameSign" class="textBox">
+        </br>
+            <input type="date" name="" id="dateSign" class="textBox">
+    </br>
+    </br>
+            <!--btn-->
+            <button class="btn" id="nextBtn">Next</button>
+            <!--links-->
+            <div class="linkContainer">
+                <p>have an acount ||</p><p class="link">Sign In</p>
+            </div>
+        </div>
+        <!--right side step 2-->
+        <div class="rightSide" id="step2">
+            <p class="title">Sign Up</p>
+            <!--text box-->
+            <input type="text" name="" placeholder="enter email" id="usernameSign" class="textBox">
+        </br>
+            <input type="password" name="" placeholder="enter new password" id="passwordSign" class="textBox">
+    </br>
+    </br>
+            <!--btn-->
+            <button class="btn" id="signUpBtn">Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>

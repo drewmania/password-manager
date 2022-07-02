@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4257cd;
+}
+.containerH {
+    display: none;
+}
+.containerS {
+    /*display*/
+    display: flex;
+    /*height/width*/
+    height: 85%;
+    width: 95%;
+    /*other styles*/
+    background-color: white;
+    border-radius: 10px;
+}
+/*left side*/
+.leftSide {
+    /*position*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height/width*/
+    width: 50%;
+    height: 99.7%;
+}
+/*img*/
+.icon {
+    /*height/width*/
+    height: 50%;
+    width: 45%;
+    /*other styles*/
+    background-color: white;
+    border-radius: 100%;
+}
+/*right side*/
+.rightSide {
+   /*position*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /*height/width*/
+   width: 50%;
+   height: 99.7%;
+}
+/*right step 1*/
+#step1 {
+    display: flex;
+}
+#step2 {
+    display: none;
+}
+.title {
+    font-size: 300%;
+    font-family: 'Roboto', sans-serif;
+}
+/*text box*/
+.textBox {
+    display: flex;
+    align-items: center;
+    height: 8%;
+    width: 37%;
+    padding-left: 25px;
+    background-color: #efefef;
+    border: 1px solid #efefef;
+    border-radius: 30px;
+    font-size: 100%;
+}
+/*btn*/
+.btn {
+    /*position*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height/width*/
+    height: 8%;
+    width: 37%;
+    /*other styles*/
+    font-size: 150%;
+    background-color: #59b747;
+    border: 1px solid #59b747;
+    color: white;
+    border-radius: 30px;
+}
+/*links*/
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+.link {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
